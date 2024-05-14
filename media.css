@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 768px) {
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .input_search input{
+        width: 300px;
+    }
+
+    footer{
+        height: 150px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer_links{
+        display: flex;
+        flex-direction: column;
+    }
+}
